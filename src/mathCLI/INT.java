@@ -1,12 +1,11 @@
 package mathCLI;
 
 public class INT implements tokenInterface {
-	private int type;
+	private final int type = 0;
 	private int value;
 
 	public INT(String v) {
 		value = Integer.parseInt(v);
-		type = 0;
 	}
 	@Override
 	public int evaluate() {

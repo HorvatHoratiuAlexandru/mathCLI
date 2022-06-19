@@ -34,7 +34,6 @@ public class tokenLexer {
 					break;
 				}
 			}
-			System.out.println(expression.substring(INTbegining, pos));
 			return new INT(expression.substring(INTbegining, pos));		
 		} else {
 			System.out.println("Invalid Term");

@@ -76,8 +76,8 @@ public class tokenParser {
 		}else if(lex.nextToken.getType() == 5) {
 			lex.scanToken();
 			a = parseE();
-			if(lex.nextToken.getType() != 6) {
-				System.out.println("missing parantesis");
+			if(lex.nextToken == null || lex.nextToken.getType() != 6 ) {
+				System.out.println("Missing parantesis");
 				return null;
 			}
 			lex.scanToken();

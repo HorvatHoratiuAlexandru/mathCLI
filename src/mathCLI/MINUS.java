@@ -1,12 +1,11 @@
 package mathCLI;
 
 public class MINUS implements tokenInterface{
-	private int type;
+	private final int type = 2;
 	private tokenInterface left;
 	private tokenInterface right;
 	
 	public MINUS() {
-		type = 2;
 		left = null;
 		right = null;
 	}

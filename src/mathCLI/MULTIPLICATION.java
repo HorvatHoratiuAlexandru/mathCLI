@@ -1,12 +1,11 @@
 package mathCLI;
 
 public class MULTIPLICATION implements tokenInterface{
-	private int type;
+	private final int type = 3;
 	private tokenInterface left;
 	private tokenInterface right;
 	
 	public MULTIPLICATION() {
-		type = 3;
 		left = null;
 		right = null;
 	}

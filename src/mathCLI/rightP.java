@@ -1,13 +1,7 @@
 package mathCLI;
 
 public class rightP implements tokenInterface{
-	private int type;
-
-	
-	public rightP() {
-		type = 6;
-	}
-	
+	private final int type = 6;
 	
 	@Override
 	public int evaluate() {

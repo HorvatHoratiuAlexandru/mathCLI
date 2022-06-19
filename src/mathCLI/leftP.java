@@ -1,13 +1,8 @@
 package mathCLI;
 
 public class leftP implements tokenInterface{
-	private int type;
+	private final int type = 5;
 
-	
-	public leftP() {
-		type = 5;
-	}
-	
 	
 	@Override
 	public int evaluate() {

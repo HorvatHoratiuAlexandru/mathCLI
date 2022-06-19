@@ -1,12 +1,11 @@
 package mathCLI;
 
 public class PLUS implements tokenInterface{
-	private int type;
+	private final int type = 1;
 	private tokenInterface left;
 	private tokenInterface right;
 	
 	public PLUS() {
-		type = 1;
 		left = null;
 		right = null;
 	}

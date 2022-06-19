@@ -1,12 +1,11 @@
 package mathCLI;
 
 public class DIVISION implements tokenInterface{
-	private int type;
+	private final int type = 4;
 	private tokenInterface left;
 	private tokenInterface right;
 	
 	public DIVISION() {
-		type = 4;
 		left = null;
 		right = null;
 	}
